@@ -16,7 +16,7 @@ public abstract class Animal {
     }
 
     public static int polulationSize() {
-        return animalsCounter;
+        return Animal.animalsCounter;
     }
 
     public void run(int distance) {
